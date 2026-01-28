@@ -1,0 +1,26 @@
+import random
+i = 1
+print("*****Welcome to Number Guessing game*****")
+print("Guess a number between 1 and 20")
+secret_number = random.randint(1, 20)
+attempts = 5
+while i <= 5:
+    guess = int(input("Guess a number: "))
+    if guess == secret_number:
+        print(f"Congratulations you guessed the correct number i.e {secret_number}")
+        break
+    else:
+        remaining = attempts - i
+        print(f"Wrong guess, try again {remaining} attempts left")
+        if guess < secret_number and remaining > 0:
+            high = "higher"
+            print(f"Guess {high} number")
+        else:
+            if remaining > 0:
+                low = "lower"
+                print(f"Guess {low} number")
+    i += 1
+if guess != secret_number or remaining == 0:
+    print("You Lost")
+
+
