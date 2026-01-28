@@ -1,0 +1,19 @@
+# 🎲 Number Guessing Game
+
+Welcome to the **Number Guessing Game**, a beginner-friendly project designed to strengthen programming fundamentals while offering a fun interactive experience. This game challenges the player to guess a randomly generated secret number within a limited number of attempts. It’s simple, engaging, and an excellent way to practice logic, loops, conditionals, and user input handling.
+
+---
+
+## 🚀 Features
+- **Random number generation** within a customizable range.
+- **User input validation** to prevent errors and ensure smooth gameplay.
+- **Feedback system** that guides the player by indicating whether the guess is too high or too low.
+- **Replay option** so players can enjoy multiple rounds without restarting the program.
+- **Beginner-friendly code structure** that is easy to read, understand, and extend.
+
+---
+
+## 🖥️ How to Run
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/MdHameeduddin/TUTEDUDE.git
